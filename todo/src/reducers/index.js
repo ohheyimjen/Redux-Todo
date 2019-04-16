@@ -4,7 +4,7 @@ export default (state = initialState, action) => {
 
 function reducer(state = initialState, action) {
   switch (action.type) {
-    case "TODO_LIST":
+    case "UPDATE_LIST":
       return {
         ...state,
         title: action.payload
