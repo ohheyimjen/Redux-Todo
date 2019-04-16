@@ -1,5 +1,21 @@
-export default (state = initialState, action) => {
-  title: "Todos";
+
+const initialState = {
+    title: 'Todo List',
+    todos: [
+        {
+            item: 'Feed doggo',
+            completed: false
+        },
+        {
+            item: 'Teach doggo to pour a glass of wine',
+            completed: false
+        },
+        {
+            item: 'Teach doggo to complete my todo list',
+            completed: false
+        }
+
+    ]
 };
 
 function reducer(state = initialState, action) {
@@ -13,3 +29,5 @@ function reducer(state = initialState, action) {
       return state;
   }
 }
+
+export default reducer;

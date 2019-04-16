@@ -58,8 +58,8 @@ Topics:
 
 ### Notes/Hints
 
-* You should only need one reducer. This reducer will control the `todos` array property on the state tree.
-* You will have several action creators. One for adding a new todo item and another for toggling each todo item.
+*[X] You should only need one reducer. This reducer will control the `todos` array property on the state tree.
+* [X] You will have several action creators. One for adding a new todo item and another for toggling each todo item.
 * Containers require `connect` and a `mapStateToProps(state)` function to read from the state tree.
 * Actions creators should be passed inside an object as the second argument to the `connect` function inside components that need access to the Redux store.
 * http://redux.js.org/ has a todo list as an example project in their documentation. Feel free to use this as a reference as well.
