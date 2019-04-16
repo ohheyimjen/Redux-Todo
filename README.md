@@ -16,10 +16,10 @@ Topics:
 
 ### Initialize Project
 
-* Run `create-react-app todo` to create your starter application.
+* [X] Run `create-react-app todo` to create your starter application.
 * Now that you have created your `todo` directory, cd into it.
-* `yarn add redux react-redux` or `npm install --save redux react-redux` This command will install the needed dependencies.
-* You will create a todo list using React and Redux.
+* [X] `yarn add redux react-redux` or `npm install --save redux react-redux` This command will install the needed dependencies.
+* [] You will create a todo list using React and Redux.
 * Use the movies project as a reference.
 * The general flow of steps will be to create your store, create your reducers, create your containers, and then create the action creators.
 * When you add a new item to the todo array an action containing the new todo object will be dispatched through all of the reducers.
@@ -47,7 +47,7 @@ Topics:
 }
 ```
 
-* You will create your store in `src/index.js`. The `<Provider >` component will wrap `<App />` and you will pass the created store into `<Provider >` as one of its properties. Use [this](https://github.com/SunJieMing/redux-example-movies) repository as a reference.
+* [X] You will create your store in `src/index.js`. The `<Provider >` component will wrap `<App />` and you will pass the created store into `<Provider >` as one of its properties. Use [this](https://github.com/SunJieMing/redux-example-movies) repository as a reference.
 
 ### React
 
