@@ -1,7 +1,7 @@
 export const UPDATE_LIST = 'UPDATE_LIST';
 export const ADD_TODO = 'ADD_TODO';
 
-export function updateList(newList) {
+export const updateList = newList => {
     
     return {
         type: UPDATE_LIST,
@@ -9,7 +9,7 @@ export function updateList(newList) {
     };
 }
 
-export function addToto(newTodo) {
+export const addToto = newTodo => {
 
     return {
         type: ADD_TODO,
